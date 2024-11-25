@@ -4,7 +4,7 @@ let cityName = document.querySelector(".city-name");
 let cityTemp = document.querySelector(".city-temp");
 let weatherType = document.querySelector(".weather-type");
 
-import API_KEY from "./apikey";
+let API_KEY = "14c327a91f87ae802919594027ec2a74";
 
 const WEATHER_URL = (city) => {
   return `https://api.weatherstack.com/current?access_key=${API_KEY}&query=${city}`;
